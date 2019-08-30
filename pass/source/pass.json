@@ -1,0 +1,60 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.ru.qronus.developer", 
+  "serialNumber" : "<INSERT SERIAL NUMBER>",
+  "teamIdentifier" : "TK5TVL28C7", 
+  "barcode" : {
+    "message" : "All you need is love",
+    "format" : "PKBarcodeFormatPDF417",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "locations" : [],
+  "organizationName" : "Free Hugs LLC",
+  "description" : "Coupong for 1 Free Hug",
+  "logoText" : "Free Hugs LLC",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(135, 129, 189)", 
+  "labelColor" : "rgb(45, 54, 129)",
+  "coupon" : {
+    "primaryFields" : [
+      {
+        "key" : "offer",
+        "label" : "for you",
+        "value" : "Free hug"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "name",
+        "label" : "Name:",
+        "value" : "<INSERT NAME>"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "date",
+        "dateStyle" : "PKDateStyleMedium",      
+        "timeStyle" : "PKDateStyleNone",      
+        "label" : "Promotion starts",
+        "value" : "2013-01-11T00:00Z"
+      }
+    ],
+    "backFields" : [
+      {
+        "key" : "extras",
+        "label" : "Extras",
+        "value" : "Your friends receive 50% off price"
+      },
+      {
+	     "key" : "phone",
+	     "label" : "For more info",
+	     "value" : "800-1234567890"
+      },
+      {
+        "key" : "terms",
+        "label" : "TERMS AND CONDITIONS",
+        "value" : "Free hugs last 18 seconds and must be claimed on your birthday. Bring your pass or an id"
+      }
+    ]
+  }
+}
