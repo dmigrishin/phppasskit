@@ -16,7 +16,7 @@
 </head>
 <body>
     <?php
-        if ($_GET['message']!="") {
+        if (isset($_GET['message']) && ($_GET['message']!="")){
         print "<div>".$_GET['message']."</div>";
         }
     ?>

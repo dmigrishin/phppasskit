@@ -1,0 +1,4 @@
+*.pem
+*.rar
+cert/
+*.code-workspace
